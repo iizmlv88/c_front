@@ -1,0 +1,467 @@
+.calendarWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+}
+
+.lake {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 320px;
+    background-image: url(../img/marc.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lake_service {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    color: #fff;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33.18px;
+    line-height: 120%;
+    padding-bottom: 50px;
+}
+
+.bold {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19.2px;
+    line-height: 180%;
+    color: #fff;
+}
+
+.grey_logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    gap: 20px;
+    gap: 40px;
+
+    @media screen and (min-width: 768px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    @media screen and (min-width: 1280px) {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+}
+
+.logo_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    width: 280px;
+}
+
+.btn_service {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #43B97F;
+    border-radius: 15px;
+    padding: 5px 15px;
+    color: #fff;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    &:active {
+        transform: scale(0.98);
+    }
+}
+
+.three_cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 100px;
+
+    @media screen and (min-width: 1280px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.three_cards>:nth-child(1) {
+    align-self: flex-start;
+}
+
+.three_cards>:nth-child(2) {
+    align-self: center;
+}
+
+.three_cards>:nth-child(3) {
+    align-self: flex-end;
+}
+
+.three_cards_back_one {
+    background-image: url(/nathan-cima-gH5mpNXWI8o-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 380px;
+    height: 263px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.three_cards_back_two {
+    background-image: url(/mathieu-chassara-0b3Nkg9oisc-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 380px;
+    height: 263px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.three_cards_back_three {
+    background-image: url(/gentrit-sylejmani-JjUyjE-oEbM-unsplas.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 380px;
+    height: 263px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.three_cards_back {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    color: #FFFFFF;
+}
+
+.free_zone {
+    padding-left: 24px;
+
+    .water {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 23.04px;
+        line-height: 120%;
+    }
+
+    .timework {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 180%;
+    }
+
+}
+
+.btn_three_cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 180%;
+    color: #FFFFFF;
+    padding: 5px 15px;
+    border: 1px solid #43B97F;
+    border-radius: 8px;
+    margin-left: 24px;
+
+    >a {
+        text-decoration: none;
+        color: #FFFFFF;
+
+        &:active {
+            transform: scale(0.98);
+        }
+    }
+}
+
+.ven_back {
+    background-image: url(/victor-freitas-JbI04nYfaJk-unsplash.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    height: 100%;
+    min-height: 550px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 65px;
+    padding: 100px 0;
+}
+
+.container_ven {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-width: 300px;
+    max-width: 1280px;
+    height: 100%;
+    padding: 0 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    color: #FFFFFF;
+    gap: 20px;
+    gap: 50px;
+
+    @media screen and (min-width: 480px) {
+        padding: 0 20px;
+    }
+
+    @media screen and (min-width: 768px) {
+        padding: 0 25px;
+    }
+
+    @media screen and (min-width: 1024px) {
+        padding: 0 50px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        padding: 0 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.ven_back_l {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+
+    #facilities {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 47.78px;
+        line-height: 120%;
+        color: #FFFFFF;
+    }
+
+    .btn_ven {
+        padding: 10px 20px;
+        background: #43B97F;
+        border-radius: 8px;
+
+        >a {
+            text-decoration: none;
+            color: #FFFFFF;
+
+            &:active {
+                transform: scale(0.98);
+            }
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        max-width: 580px;
+    }
+}
+
+.complex_back_r {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+    gap: 20px;
+
+    @media screen and (min-width: 768px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+.free_cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: #fff;
+    width: 280px;
+    height: 178px;
+    border-radius: 15px;
+}
+
+.complex_back_big {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39.81px;
+    line-height: 120%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.our_serice {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    padding: 100px 0;
+}
+
+.our {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33.18px;
+    line-height: 120%;
+
+    #comlex {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 180%;
+    }
+}
+
+.six_box_service {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    @media screen and (min-width: 768px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px 40px;
+    }
+
+    @media screen and (min-width: 1024px) {
+        gap: 50px 20px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.box_sbc {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 360px;
+    height: 100%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    gap: 25px;
+
+    >div:nth-child(1) {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        height: 100%;
+    }
+}
+
+#sbc_head {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27.65px;
+    line-height: 120%;
+}
+
+.colomn_sbc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.btn_sbc {
+    padding: 5px 20px;
+    background: #43B97F;
+    border-radius: 8px;
+    color: #FFF;
+
+    >a {
+        text-decoration: none;
+        color: #FFFFFF;
+
+        &:active {
+            transform: scale(0.98);
+        }
+    }
+}

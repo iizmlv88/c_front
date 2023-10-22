@@ -1,0 +1,175 @@
+.prom_background {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 320px;
+    background-image: url('/mathieu-chassara-0b3Nkg9oisc-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.prom_background_text {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    color: #fff;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33.18px;
+    line-height: 120%;
+    padding-bottom: 50px;
+}
+
+.prom{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+}
+
+.news_trio {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    color: #3D3E48;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 100px 0 55px;
+}
+
+.news_duet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    >div{
+        color: #fff;
+    }
+
+    #news_header {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 27.65px;
+        line-height: 120%;
+        color: #43B97F;
+    }
+}
+
+.ul_news {
+    ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        @media screen and (min-width: 480px) {
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+        @media screen and (min-width: 1024px) {
+            display: grid;
+            grid-template-columns: repeat(5, auto);
+            gap: 40px;
+        }
+
+        li {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        li>a {
+            padding: 10px 20px;
+            text-decoration: none;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 180%;
+            color: #43B97F;
+        }
+
+        li>a:hover {
+            background: #43B97F;
+            border-radius: 5px;
+            color: #fff;
+        }
+
+    }
+}
+
+.nine {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-bottom: 100px;
+
+    @media screen and (min-width: 1280px) {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.nine_box {
+    min-width: 300px;
+    max-width: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.2px;
+    line-height: 180%;
+    color: #43B97F;
+
+    #fff_data {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 180%;
+        color: #fff;
+    }
+
+    .nine_img {
+        width: 100%;
+        min-width: 300px;
+    }
+}
+
+.img_nine {
+    width: 100%;
+    min-width: 280px;
+    max-width: 380px;
+}

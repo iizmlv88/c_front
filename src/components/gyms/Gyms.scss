@@ -1,0 +1,359 @@
+.first_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+}
+.gymwrapper{
+    padding-top: 55px;
+}
+.gym_back {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 320px;
+    background-image: url('/vi.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gym_text {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    color: #fff;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33.18px;
+    line-height: 120%;
+    padding-bottom: 50px;
+}
+
+.gym {
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.s_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    height: 100%;
+    width: 100%;
+
+    #s {
+        float: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 67.9392px;
+        line-height: 120%;
+        color: #FFF;
+    }
+}
+
+.smap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+@media screen and (min-width: 480px) {
+    .fmapa {
+        width: 380px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .s_row {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 50px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .s_row {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .first_block {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+}
+
+
+.second_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @media screen and (min-width: 1280px) {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        align-items: start;
+        gap: 30px;
+    }
+}
+
+.second_block_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    color: #000000;
+
+    @media screen and (min-width: 1280px) {
+        padding-bottom: 100px;
+    }
+}
+
+.gym_block {
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.gym_block_img {
+    background-image: url('/ambitious-studio-rick-barrett-1RNQ11ZODJM-unsplash.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 780px;
+    height: 299px;
+}
+
+.gym_block_text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27.65px;
+    line-height: 120%;
+    color: #3D3E48;
+    color: #FFF;
+    @media screen and (min-width: 1024px) {
+        align-items: flex-start;
+        width: 780px;
+    }
+}
+
+.tag_gym {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+    color: #FFF;
+}
+
+.second_block_text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.second_block_doublepic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+
+    @media screen and (min-width: 1024px) {
+        flex-direction: row;
+    }
+}
+
+.double_pic_one {
+    background-image: url('/alora-griffiths-AkEr0jc5Lvs-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 283px;
+    max-width: 380px;
+}
+
+.double_pic_two {
+    background-image: url('/alora-griffiths-vJVOvmX3hfQ-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 283px;
+    max-width: 380px;
+}
+
+.four_cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 0;
+    >div{
+        color: #FFF;
+    }
+
+    @media screen and (min-width: 1280px) {
+        padding: 0;
+        justify-content: flex-start;
+        gap: 0;
+    }
+
+    .plus_div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+.four_cards_header_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 380px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.2px;
+    line-height: 180%;
+    color: #3D3E48;
+
+    #all_cards {
+        color: #43B97F;
+    }
+
+    padding-bottom: 10px;
+}
+
+.cards {
+    background-image: url('/eduardo-cano-photo-co-sxBt--IMwQc-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 380px;
+    height: 255px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+.tyt_nazva {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 180%;
+    color: #FFFFFF;
+    padding-left: 10px;
+    width: 90%;
+    min-width: 300px;
+    min-height: 29px;
+}
+
+.city {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 180%;
+    color: #FFFFFF;
+    padding-left: 10px;
+    padding-bottom: 30px;
+}
+
+.cards_btn {
+    padding: 10px 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 180%;
+    color: #FFFFFF;
+    background-color: #43B97F;
+    border-radius: 8px;
+    margin-left: 10px;
+
+    &:active {
+        transform: scale(0.98);
+    }
+
+    a {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+}
+
+.bulo_ne_bulo {
+    display: none;
+
+    @media screen and (min-width: 1280px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+}
